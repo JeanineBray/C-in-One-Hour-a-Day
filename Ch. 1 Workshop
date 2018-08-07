@@ -1,0 +1,38 @@
+Quiz
+
+1. What is the difference between an interpreter and a compiler
+
+2. What does the linker do?
+
+3. What are the steps in the normal development cycle?
+
+
+
+Exercises
+
+1. Look at the following program and try to guess what it does without running it:
+
+      1: #include <iostream>
+      2: int main()
+      3: {
+      4: int x = 8;
+      5: int y = 6;
+      6: std::cout << std::endl;
+      7: std::cout << x - y << " " << x * y << " " << x + y;
+      8: std::cout << std::endl;
+      9: return 0;
+      10: }
+
+2. Type in the program from Exercise 1 and then compile and link it. What does it do? Does it do what you guessed?
+
+3. What do you think is the error in this program:
+
+      1: include <iostream>
+      2: int main()
+      3: {
+      4: std::cout << "Hello Buggy World \n";
+      5: return 0;
+      6: }
+     
+4. Fix the error in the program in Exercie 3, compile, link, and run it. What does it do?
+

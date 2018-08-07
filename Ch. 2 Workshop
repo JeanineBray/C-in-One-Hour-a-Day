@@ -1,0 +1,22 @@
+Quiz
+
+1. What is the problem in declaring Int main()?
+
+2. Can comments be longer than one line?
+
+
+Exercises
+
+1. BUG BUSTERS: Enter this program and compile it. Why does it fail? How can
+you fix it?
+
+    1: #include <iostream>
+    2: void main()
+    3: {
+    4: std::Cout << Is there a bug here?";
+    5: }
+
+2. Fix the bug in Exercise 1 and recompile, link, and run it.
+
+3. Modify Listing 2.4 to demonstrate subtraction (using –) and multiplication
+(using *).
